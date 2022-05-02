@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: rucas_robot_main
+Description: Description of rucas_robot_main
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrucas_robot_main
+Requires: geometry_msgs roscpp rospy std_msgs rucas_msgs
